@@ -72,14 +72,14 @@ const Skills = () =>{
 
 
     return(
-        <div name="skills" className="w-full h-screen bg-gradient-to-b from-gray-50 to-black">
-            <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full">
-                <div>
+        <div name="skills" className="w-full h-screen bg-gradient-to-b from-gray-50 to-black " >
+            <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full md:text-black sm:mt-24 md:mt-64">
+                <div className="sm:text-center md:text-start">
                     <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
                         SkillS
                     </p>
                 </div>
-                <div className="py-8 px-12 sm:px-0 w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center">
+                <div className="py-8 px-12 sm:px-0 w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center sm:mt-10">
 
                     {
                         skills.map(({id,src,title,style})=>(

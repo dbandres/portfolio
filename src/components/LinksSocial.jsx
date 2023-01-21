@@ -42,7 +42,7 @@ const LinksSocials = () =>{
                     Curriculum  <BsFillPersonLinesFill size={30}/>
                 </>
             ),
-            href: "/Dev-jr-cv.pdf",
+            href: "/Dev-jr-cv2023.pdf",
             style: "rounded-br-md",
             download: true
         }
@@ -50,7 +50,7 @@ const LinksSocials = () =>{
 
 
     return(
-        <div className="flex flex-col top-[35%] left-0 fixed ">
+        <div className="hidden lg:flex flex-col top-[35%] left-0 fixed ">
             <ul>
 
                 {
