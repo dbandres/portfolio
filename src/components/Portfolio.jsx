@@ -4,9 +4,6 @@ import proyect2 from "./assets/img/todoList.png"
 import ModalDogs from "./modal/ModalDogs"
 import ModalTodo from "./modal/ModalTodo"
 
-
-
-
 const Portfolio = () =>{
 
     const [abrir, setAbrir] = useState(false)
@@ -18,11 +15,11 @@ const Portfolio = () =>{
             src: proyect1,
             href: "https://github.com/dbandres/Proyecto_Individual"
         },
-        {
-            id: 2,
-            src: proyect2,
-            href: "https://github.com/dbandres/pern"
-        },
+        // {
+        //     id: 2,
+        //     src: proyect2,
+        //     href: "https://github.com/dbandres/pern"
+        // },
     ]
 
 

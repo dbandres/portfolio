@@ -39,7 +39,7 @@ const LinksSocials = () =>{
             id: 4,
             child:(
                 <>
-                    Curriculum  <BsFillPersonLinesFill size={30}/>
+                    CV  <BsFillPersonLinesFill size={30}/>
                 </>
             ),
             href: "/Dev-jr-cv2023.pdf",

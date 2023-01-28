@@ -9,11 +9,14 @@ const About = () =>{
                     </p>
                 </div>
                 <p className="text-xl sm:mt-10">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod consectetur temporibus, rerum officia fuga labore quibusdam commodi laboriosam, sapiente dolorem, sed vitae ad? Ex unde repellendus voluptatem odit quidem perferendis at, quaerat sint facilis! Aperiam laborum repellendus incidunt repudiandae aut minus alias, odit, temporibus assumenda accusamus aspernatur exercitationem omnis laboriosam.
+                    Mi nombre es Dario Andres Balmaceda, tengo 29 años y soy oriundo de la ciudad de Posadas, provincia de Misiones. Actualmente soy alumno de Henry y estoy en la etapa final del bootcamp Full-Stack PERN. Gracias a mi formación, considero que puedo aportar valor y seguir desarrollándome profesionalmente.
                 </p>
                 <br />
-                <p className="text-xl">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, accusamus labore? Similique dignissimos iste praesentium labore repellat est porro numquam quis, quas accusantium maxime iure, hic modi dolor, nemo odit? Possimus amet consectetur eius, provident quam quis pariatur aspernatur quisquam ipsam aut voluptate accusamus iste repellendus ratione error laborum odit!
+                <p className="text-xl sm:mt-10">
+                Como persona organizada y con una gran motivación, soy capaz de adaptarme a cualquier circunstancia y dar siempre lo mejor de mí en cualquier proyecto, al mismo tiempo que me esfuerzo por trabajar en equipo y fomentar valores como los del compañerismo. También me considero una persona resolutiva, con buen ánimo y capaz de resolver problemas fácilmente.
+                </p>
+                <p className="text-xl sm:mt-10">
+                Mi objetivo principal es desarrollarme profesionalmente y evolucionar en el sector, de modo que busco oportunidades que me permitan hacerlo, al tiempo que trataré de alinearme completamente con los objetivos prupuestos.
                 </p>
             </div>
         </div>
