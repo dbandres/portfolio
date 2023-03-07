@@ -1,13 +1,10 @@
-import { useState } from "react"
 import proyect1 from "./assets/img/dog.png"
-import proyect2 from "./assets/img/todoList.png"
-import ModalDogs from "./modal/ModalDogs"
-import ModalTodo from "./modal/ModalTodo"
+import proyect2 from "./assets/img/logoMuseo.png"
+
 
 const Portfolio = () =>{
 
-    const [abrir, setAbrir] = useState(false)
-    const [todo, setTodo] = useState(false)
+  
 
     const proyects = [
         {
@@ -15,11 +12,11 @@ const Portfolio = () =>{
             src: proyect1,
             href: "https://github.com/dbandres/Proyecto_Individual"
         },
-        // {
-        //     id: 2,
-        //     src: proyect2,
-        //     href: "https://github.com/dbandres/pern"
-        // },
+        {
+            id: 2,
+            src: proyect2,
+            href: "https://github.com/dbandres/pern"
+        },
     ]
 
 
@@ -35,17 +32,7 @@ const Portfolio = () =>{
                             return(
                                 <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
                                         <img src={src} alt="" className="rounded-md duration-200 hover:scale-105 w-80 h-72 md:m-auto" />
-                                    <div className="flex items-center justify-center">
-                                        {
-                                            id === 1 ?
-                                            <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={()=>setAbrir(true)}>
-                                            Demo
-                                            </button>
-                                            :
-                                            <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={()=> setTodo(true)}>
-                                            Demo
-                                            </button>
-                                        }
+                                    <div className="flex items-center justify-center">    
                                         <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                                                 <a href={href} target="_blank">Code</a>
                                         </button>
@@ -56,8 +43,6 @@ const Portfolio = () =>{
                     }
                 </div>
             </div>
-            <ModalDogs abrir={abrir} close={()=>setAbrir(false)}></ModalDogs>
-            <ModalTodo abrir={todo} close={()=> setTodo(false)}></ModalTodo>
         </div>
     )
 }
