@@ -7,7 +7,9 @@ import react from "./assets/img/react.png";
 import tailwind from "./assets/img/tailwind.png";
 import postgres from "./assets/img/Postgresql.png";
 import sequelize from "./assets/img/sequelizejs.png"
-
+import auth0 from "./assets/img/auth0.png"
+import redux from "./assets/img/redux.png"
+import express from "./assets/img/node-express.png"
 
 
 const Skills = () =>{
@@ -66,6 +68,24 @@ const Skills = () =>{
                 src: sequelize,
                 title: "Sequelize",
                 style: "shadow-sky-700"
+            },
+            {
+                id: 10,
+                src: auth0,
+                title: "Auth0",
+                style: "shadow-orange-500"
+            },
+            {
+                id: 11,
+                src: redux,
+                title: "Redux",
+                style: "shadow-violet-700"
+            },
+            {
+                id: 12,
+                src: express,
+                title: "Express",
+                style: "shadow-yellow-100"
             }
         ]
 
@@ -79,7 +99,7 @@ const Skills = () =>{
                         SkillS
                     </p>
                 </div>
-                <div className="py-8 px-12 sm:px-0 w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center sm:mt-10">
+                <div className="py-8 px-12 sm:px-0 w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center sm:mt-10">
 
                     {
                         skills.map(({id,src,title,style})=>(
